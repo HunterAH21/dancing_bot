@@ -2,7 +2,9 @@ body {
     margin: 0;
     background-image: url(bg.png);
     background-size: cover;
+    display: flex;
   }
+
   
   h1 {
     text-align: center;
@@ -25,6 +27,7 @@ body {
     height: 150px;
     border-radius: 150px 100px 0 0;
     margin-bottom: 10px;
+    background-color: rgb(50, 50, 130);
   }
   
   .eyes {
@@ -38,7 +41,7 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 15px;
-    background-color: white;
+    background-color: rgb(234, 255, 0);
     display: inline-block;
   }
   
@@ -65,7 +68,7 @@ body {
     height: 125px;
     border-radius: 100px;
     margin-top: 20px;
-    background-color: rgb(123, 153, 64);
+    background-color: rgb(227, 109, 6);
   }
   
   .left_arm {
@@ -87,7 +90,7 @@ body {
     height: 200px;
     border-radius: 0 0 50px 50px;
     transition: border-radius 1s;
-    background-color: rgb(48, 94, 41);
+    background-color: rgb(234, 8, 8);
   }
   
   .lower_body {
@@ -102,6 +105,7 @@ body {
     height: 120px;
     border-radius: 0 0 100px 100px;
     display: inline-block;
+    background-color: yellow;
   }
   
   .left_leg {
