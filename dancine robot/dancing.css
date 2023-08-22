@@ -1,8 +1,9 @@
-body {
+.overall {
     margin: 0;
     background-image: url(bg.png);
     background-size: cover;
     display: flex;
+    
   }
 
   
@@ -116,28 +117,28 @@ body {
     margin-left: 30px;
   }
   
-  .robots:hover .head {
+  .dance:hover .head {
     animation: movehead 2s infinite;
   }
   
-  .robots:hover .torso {
+  .dance:hover .torso {
     border-radius: 40%;
     animation: movetorso 2s infinite;
   }
   
-  .robots:hover .left_arm {
+  .dance:hover .left_arm {
     animation: moveleftarm 2s infinite;
   }
   
-  .robots:hover .right_arm {
+  .dance:hover .right_arm {
     animation: moverightarm 2s infinite;
   }
   
-  .robots:hover .left_leg {
+  .dance:hover .left_leg {
     animation: moveleftleg 2s infinite;
   }
   
-  .robots:hover .right_leg {
+  .dance:hover .right_leg {
     animation: moverightleg 2s infinite;
   }
   
